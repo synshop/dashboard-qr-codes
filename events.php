@@ -15,7 +15,7 @@
     }
     h1 {
       font-family: Helvetica,serif;
-      font-size: 90px;
+      font-size: 40px;
     }
     body .qr img {
       width: 50%;
@@ -29,7 +29,7 @@
     #hours {
       font-family: Inconsolata, monospace;
       white-space: pre;
-      font-size: 70px;
+      font-size: 30px;
       padding-bottom: 120px;
     }
   </style>
