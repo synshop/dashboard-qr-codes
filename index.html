@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="refresh">
+    <title>SYN Shop Kiosk</title>
+    <style media="screen">
+        body, a {
+            padding:0 0 0 0 ;
+            margin:0 0 0 0 ;
+            background-color: black;
+            font-size: 10px;
+            font-family: Helvetica,serif;
+            color:white;
+            text-decoration: none;
+        }
+        iframe {
+            border:none;
+            margin:0;
+            padding:0;
+            display: block;
+            float: left;
+            overflow-y: hidden;
+        }
+        #weatherDash {
+            width: 45%;
+            height: 470px;
+            float: left;
+            overflow-y: hidden;
+        }
+        h1 {
+            font-family: Helvetica,serif;
+
+        }
+        #logoDash {
+            height: 510px;
+            width: 48%;
+            float: left;
+            overflow-y: hidden;
+            font-family: Helvetica,serif;
+            padding-left: 14px;
+        }
+        #eventDash {
+            width: 45%;
+            float: right;
+            height: 970px;
+            overflow-y: hidden;
+        }
+        .invert img {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+<iframe id="eventDash" src="events.html" scrolling="no"></iframe>
+<iframe id="weatherDash" src="/" scrolling="no"></iframe>
+<iframe id="logoDash" src="/member_fobbing" scrolling="no" class="invert">
+
+</body>
+</html>
