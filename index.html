@@ -6,6 +6,7 @@
     <meta content="utf-8" http-equiv="refresh">
     <title>SYN Shop Kiosk</title>
     <style media="screen">
+
         body, a {
             padding:0 0 0 0 ;
             margin:0 0 0 0 ;
@@ -14,48 +15,74 @@
             font-family: Helvetica,serif;
             color:white;
             text-decoration: none;
+            border:none;
         }
         iframe {
-            border:none;
-            margin:0;
-            padding:0;
+            border: 0;
+            margin: 0px;
+            padding: 0;
             display: block;
-            float: left;
-            overflow-y: hidden;
-        }
-        #weatherDash {
-            width: 45%;
-            height: 470px;
             float: left;
             overflow-y: hidden;
         }
         h1 {
             font-family: Helvetica,serif;
-
-        }
-        #logoDash {
-            height: 510px;
-            width: 48%;
-            float: left;
-            overflow-y: hidden;
-            font-family: Helvetica,serif;
-            padding-left: 14px;
-        }
-        #eventDash {
-            width: 45%;
-            float: right;
-            height: 970px;
-            overflow-y: hidden;
         }
         .invert img {
             width: 50%;
         }
+
+        #weatherDash {
+            width: 48%;
+            height: 510px;
+            float: left;
+            overflow-y: hidden;
+        }
+        #logoDash {
+            height: 610px;
+            width: 48%;
+            float: left;
+            overflow-y: hidden;
+            font-family: Helvetica,serif;
+        }
+        #eventDash {
+            width: 45%;
+            float: right;
+            height: 890px;
+            overflow-y: hidden;
+        }
+        #homeAssDash {
+            width: 37%;
+            float: right;
+            height: 570px;
+            overflow-y: hidden;
+            padding-right: 8%;
+        }
+        #flightAwareDash {
+            margin-top: 100px;
+            margin-bottom: 300px;
+            width: 100%;
+            float: right;
+            height: 1070px;
+            overflow-y: hidden;
+        }
+        #WelcomeDash {
+            margin-top: 200px;
+            margin-bottom: 100px;
+            width: 100%;
+            float: right;
+            height: 470px;
+            overflow-y: hidden;
+        }
     </style>
 </head>
 <body>
-<iframe id="eventDash" src="hours-qr-codes.html" scrolling="no"></iframe>
-<iframe id="weatherDash" src="/" scrolling="no"></iframe>
-<iframe id="logoDash" src="/member_fobbing/" scrolling="no" class="invert">
+<iframe id="WelcomeDash" src="welcome.html?2" scrolling="no"></iframe>
+<iframe id="flightAwareDash" src="http://10.0.40.161:8080/?2" scrolling="no"></iframe>
+<iframe id="eventDash" src="hours-qr-codes.html?2" scrolling="no"></iframe>
+<iframe id="weatherDash" src="/?2" scrolling="no"></iframe>
+<iframe id="logoDash" src="/member_fobbing/?2" scrolling="no" class="invert"></iframe>
+<iframe id="homeAssDash" src="https://ha.synshop.net/dashboard-test/0?2" ></iframe>
 
 </body>
 </html>
